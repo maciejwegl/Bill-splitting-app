@@ -1,0 +1,90 @@
+.friend {
+  display: flex;
+  background-color: #fff;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.balance {
+  color: var(--color-text-primary);
+}
+
+.warning {
+  color: var(--color-text-warning);
+}
+
+.selected {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: cornflowerblue;
+}
+
+.friend:hover {
+  background-color: #d1d1d1;
+}
+
+.imgHolder {
+  width: 20%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.imgHolder img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.friendInfo {
+  width: 55%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.friendInfo p {
+  font-size: 0.9em;
+}
+
+.btnHolder {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete {
+  background-color: rgb(227, 7, 7);
+}
+
+.icon {
+  font-size: 1.4em;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.iconSelect {
+  color: darkgreen;
+  background-color: transparent;
+}
+
+.iconSelect:hover {
+  font-size: 1.6em;
+  color: rgb(141, 141, 141);
+}
+
+.iconDelete {
+  color: rgb(208, 5, 5);
+}
+
+.iconDelete:hover {
+  font-size: 1.5em;
+  color: rgb(141, 141, 141);
+}

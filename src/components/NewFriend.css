@@ -1,0 +1,80 @@
+.newFriend {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  background-color: #fff;
+  padding: 10px 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  grid-column-start: 1;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+
+.newName {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #9393937f;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.newName:hover {
+  background-color: #d6d6d6;
+}
+
+.newImg {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #9393937f;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.newImg:hover {
+  background-color: #d6d6d6;
+}
+
+.newFriend .btnAdd {
+  margin: 5px auto;
+}
+
+.closeHolder {
+  height: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.close {
+  font-size: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.close:hover {
+  color: cadetblue;
+  font-size: 34px;
+  background-color: #eeeded;
+}
+
+@media (max-width: 900px) {
+  .newFriend {
+    width: 100%;
+    height: 35vh;
+    /* grid-column-start: 1; */
+  }
+}
